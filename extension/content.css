@@ -1,0 +1,24 @@
+#islens-subtitle-banner {
+  position: fixed;
+  left: 50%;
+  bottom: 48px;
+  transform: translateX(-50%) translateY(12px);
+  background: rgba(20, 20, 20, 0.88);
+  color: #fff;
+  font-family: system-ui, sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  padding: 12px 24px;
+  border-radius: 10px;
+  z-index: 2147483647;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+  max-width: 70vw;
+  text-align: center;
+}
+
+#islens-subtitle-banner.islens-visible {
+  opacity: 1;
+  transform: translateX(-50%) translateY(0);
+}

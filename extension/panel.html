@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>ISLens</title>
+<style>
+  body { font-family: system-ui, sans-serif; margin: 0; padding: 14px; width: 392px; color: #1c1c1c; }
+  h1 { font-size: 16px; margin: 0 0 10px; }
+  #status { font-size: 12px; color: #555; margin-bottom: 8px; min-height: 16px; }
+  #wrap { position: relative; width: 360px; height: 270px; margin-bottom: 8px; }
+  video, canvas { position: absolute; top: 0; left: 0; width: 360px; height: 270px; border-radius: 8px; background: #000; }
+  .row { display: flex; gap: 8px; margin: 8px 0; align-items: center; }
+  input[type=text] { flex: 1; font-size: 12px; padding: 6px; }
+  button { font-size: 14px; padding: 8px 14px; cursor: pointer; }
+  #caption { font-size: 20px; font-weight: 700; min-height: 28px; margin: 10px 0 4px; color: #0a5; }
+  #confidence { font-size: 12px; color: #666; }
+  label { font-size: 12px; color: #444; }
+  fieldset { border: 1px solid #ddd; border-radius: 6px; margin: 0 0 10px; padding: 8px 10px; }
+  legend { font-size: 12px; color: #444; padding: 0 4px; }
+  .hidden { display: none; }
+</style>
+</head>
+<body>
+  <h1>ISLens — live panel</h1>
+  <div id="status">Idle</div>
+
+  <fieldset>
+    <legend>I am</legend>
+    <label><input type="radio" name="role" id="roleDeaf" value="deaf" checked /> Deaf (sign to speech)</label>
+    &nbsp;&nbsp;
+    <label><input type="radio" name="role" id="roleHearing" value="hearing" /> Hearing (speech to captions)</label>
+  </fieldset>
+
+  <div class="row">
+    <label for="backend">Backend (host:port):</label>
+    <input id="backend" type="text" value="127.0.0.1:8000" />
+  </div>
+  <div class="row">
+    <label for="lang">Speak/caption in:</label>
+    <select id="lang">
+      <option value="en">English</option>
+      <option value="hi">Hindi</option>
+    </select>
+    <span style="font-size:11px;color:#888">(also used for incoming signs from the other laptop)</span>
+  </div>
+
+  <div id="deafControls">
+    <div id="wrap">
+      <video id="video" autoplay muted playsinline></video>
+      <canvas id="overlay" width="360" height="270"></canvas>
+    </div>
+  </div>
+
+  <div id="hearingControls" class="hidden">
+    <div class="row">
+      <label for="sttLang">Listen for:</label>
+      <select id="sttLang">
+        <option value="en">English</option>
+        <option value="hi">Hindi</option>
+      </select>
+    </div>
+  </div>
+
+  <div class="row">
+    <button id="startBtn">Start</button>
+    <button id="stopBtn" disabled>Stop</button>
+    <button id="classifyNowBtn" disabled>Classify now</button>
+  </div>
+  <div class="row">
+    <label><input type="checkbox" id="overlayOnPage" checked /> Show captions on active tab</label>
+  </div>
+  <div id="caption">&nbsp;</div>
+  <div id="confidence"></div>
+
+  <script src="vendor/mediapipe/hands.js"></script>
+  <script src="panel.js"></script>
+</body>
+</html>
