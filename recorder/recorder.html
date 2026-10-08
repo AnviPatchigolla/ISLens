@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>ISLens — Data Recorder</title>
+<style>
+  body { font-family: system-ui, sans-serif; max-width: 720px; margin: 30px auto; color: #1c1c1c; }
+  h1 { font-size: 20px; }
+  #status { color: #555; margin-bottom: 12px; }
+  .row { display: flex; gap: 16px; align-items: center; margin: 12px 0; }
+  video, canvas { border-radius: 8px; background: #000; }
+  #wrap { position: relative; width: 480px; height: 360px; }
+  video, canvas { position: absolute; top: 0; left: 0; width: 480px; height: 360px; }
+  select, button { font-size: 16px; padding: 8px 14px; }
+  #countdown { font-size: 64px; font-weight: bold; color: #d33; position: absolute; top: 40%; left: 50%; transform: translate(-50%, -50%); text-shadow: 0 0 6px #fff; }
+  table { border-collapse: collapse; margin-top: 16px; }
+  td, th { border: 1px solid #ccc; padding: 6px 12px; text-align: left; }
+  #log { font-family: monospace; font-size: 12px; color: #444; white-space: pre-wrap; margin-top: 12px; max-height: 120px; overflow-y: auto; }
+</style>
+</head>
+<body>
+  <h1>ISLens — Data Recorder</h1>
+  <div id="status">Loading MediaPipe Hands...</div>
+
+  <div class="row">
+    <label for="backend">Backend URL:</label>
+    <input id="backend" value="http://127.0.0.1:8000" size="24" />
+    <label for="phrase">Phrase:</label>
+    <select id="phrase"></select>
+    <button id="recordBtn" disabled>Record sample (3s countdown)</button>
+  </div>
+
+  <div id="wrap">
+    <video id="video" autoplay muted playsinline></video>
+    <canvas id="overlay" width="480" height="360"></canvas>
+    <div id="countdown" style="display:none"></div>
+  </div>
+
+  <table id="counts"></table>
+  <div id="log"></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/drawing_utils/drawing_utils.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/hands/hands.js" crossorigin="anonymous"></script>
+  <script src="recorder.js"></script>
+</body>
+</html>

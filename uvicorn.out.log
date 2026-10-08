@@ -1,0 +1,4 @@
+Loaded model from C:\Users\Admin\Desktop\nitin\SIH\models\islens_lstm.pt (classes=['hello', 'good_morning', 'help', 'thank_you', 'stop'])
+INFO:     127.0.0.1:64972 - "GET /phrases HTTP/1.1" 200 OK
+INFO:     172.20.10.3:60628 - "GET /phrases HTTP/1.1" 200 OK
+INFO:     172.20.10.3:60628 - "GET /favicon.ico HTTP/1.1" 404 Not Found

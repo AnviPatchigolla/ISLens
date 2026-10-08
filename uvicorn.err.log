@@ -1,0 +1,210 @@
+INFO:     Started server process [8792]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     127.0.0.1:64975 - "WebSocket /ws/session" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:64976 - "WebSocket /ws/session" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:65065 - "WebSocket /ws/classify" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:65066 - "WebSocket /ws/session" [accepted]
+INFO:     connection open
+INFO:     172.20.10.3:57810 - "WebSocket /ws/classify" [accepted]
+INFO:     connection open
+INFO:     172.20.10.3:61474 - "WebSocket /ws/session" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:49733 - "WebSocket /ws/classify" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:49734 - "WebSocket /ws/session" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:49737 - "WebSocket /ws/session" [accepted]
+INFO:     connection open
+INFO:     172.20.10.3:51737 - "WebSocket /ws/classify" [accepted]
+INFO:     connection open
+INFO:     172.20.10.3:52019 - "WebSocket /ws/session" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:49750 - "WebSocket /ws/session" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:50073 - "WebSocket /ws/session" [accepted]
+INFO:     connection open
+INFO:     172.20.10.3:51242 - "WebSocket /ws/classify" [accepted]
+INFO:     connection open
+INFO:     172.20.10.3:65419 - "WebSocket /ws/session" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:50099 - "WebSocket /ws/session" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:50104 - "WebSocket /ws/session" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:50143 - "WebSocket /ws/session" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:50154 - "WebSocket /ws/session" [accepted]
+INFO:     connection open
+INFO:     172.20.10.3:61190 - "WebSocket /ws/classify" [accepted]
+INFO:     connection open
+INFO:     172.20.10.3:58548 - "WebSocket /ws/session" [accepted]
+INFO:     connection open
+INFO:     172.20.10.3:62086 - "WebSocket /ws/classify" [accepted]
+INFO:     connection open
+INFO:     172.20.10.3:61250 - "WebSocket /ws/session" [accepted]
+INFO:     connection open
+INFO:     172.20.10.3:58867 - "WebSocket /ws/classify" [accepted]
+INFO:     connection open
+INFO:     172.20.10.3:56685 - "WebSocket /ws/session" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:50489 - "WebSocket /ws/session" [accepted]
+INFO:     connection open
+INFO:     172.20.10.3:51068 - "WebSocket /ws/classify" [accepted]
+INFO:     connection open
+INFO:     172.20.10.3:60846 - "WebSocket /ws/session" [accepted]
+INFO:     connection open
+INFO:     172.20.10.3:58494 - "WebSocket /ws/classify" [accepted]
+INFO:     connection open
+INFO:     172.20.10.3:50879 - "WebSocket /ws/session" [accepted]
+INFO:     connection open
+INFO:     172.20.10.3:50647 - "WebSocket /ws/classify" [accepted]
+INFO:     connection open
+INFO:     172.20.10.3:55641 - "WebSocket /ws/session" [accepted]
+INFO:     connection open
+INFO:     172.20.10.3:56603 - "WebSocket /ws/classify" [accepted]
+INFO:     connection open
+INFO:     172.20.10.3:52762 - "WebSocket /ws/session" [accepted]
+INFO:     connection open
+INFO:     172.20.10.3:58696 - "WebSocket /ws/classify" [accepted]
+INFO:     connection open
+INFO:     172.20.10.3:60929 - "WebSocket /ws/session" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:50498 - "WebSocket /ws/session" [accepted]
+INFO:     connection open
+INFO:     172.20.10.3:65166 - "WebSocket /ws/classify" [accepted]
+INFO:     connection open
+INFO:     172.20.10.3:59885 - "WebSocket /ws/session" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:50517 - "WebSocket /ws/session" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:50521 - "WebSocket /ws/session" [accepted]
+INFO:     connection open
+INFO:     172.20.10.3:54849 - "WebSocket /ws/classify" [accepted]
+INFO:     connection open
+INFO:     172.20.10.3:64547 - "WebSocket /ws/session" [accepted]
+INFO:     connection open
+INFO:     172.20.10.3:54909 - "WebSocket /ws/classify" [accepted]
+INFO:     connection open
+INFO:     172.20.10.3:64319 - "WebSocket /ws/session" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:50522 - "WebSocket /ws/session" [accepted]
+INFO:     connection open
+INFO:     172.20.10.3:55121 - "WebSocket /ws/classify" [accepted]
+INFO:     connection open
+INFO:     172.20.10.3:61895 - "WebSocket /ws/session" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:50527 - "WebSocket /ws/session" [accepted]
+INFO:     connection open
+INFO:     172.20.10.3:56108 - "WebSocket /ws/classify" [accepted]
+INFO:     connection open
+INFO:     172.20.10.3:57906 - "WebSocket /ws/session" [accepted]
+INFO:     connection open
+INFO:     172.20.10.3:63553 - "WebSocket /ws/classify" [accepted]
+INFO:     connection open
+INFO:     172.20.10.3:51907 - "WebSocket /ws/session" [accepted]
+INFO:     connection open
+INFO:     172.20.10.3:53142 - "WebSocket /ws/classify" [accepted]
+INFO:     connection open
+INFO:     172.20.10.3:51097 - "WebSocket /ws/session" [accepted]
+INFO:     connection open
+INFO:     172.20.10.3:54066 - "WebSocket /ws/classify" [accepted]
+INFO:     connection open
+INFO:     172.20.10.3:57255 - "WebSocket /ws/session" [accepted]
+INFO:     connection open
+INFO:     172.20.10.3:59849 - "WebSocket /ws/classify" [accepted]
+INFO:     connection open
+INFO:     172.20.10.3:58047 - "WebSocket /ws/session" [accepted]
+INFO:     connection open
+INFO:     172.20.10.3:49728 - "WebSocket /ws/classify" [accepted]
+INFO:     connection open
+INFO:     172.20.10.3:58474 - "WebSocket /ws/session" [accepted]
+INFO:     connection open
+INFO:     172.20.10.3:61436 - "WebSocket /ws/classify" [accepted]
+INFO:     connection open
+INFO:     172.20.10.3:57557 - "WebSocket /ws/session" [accepted]
+INFO:     connection open
+INFO:     172.20.10.3:56535 - "WebSocket /ws/classify" [accepted]
+INFO:     connection open
+INFO:     172.20.10.3:64707 - "WebSocket /ws/session" [accepted]
+INFO:     connection open
+INFO:     172.20.10.3:57612 - "WebSocket /ws/classify" [accepted]
+INFO:     connection open
+INFO:     172.20.10.3:61414 - "WebSocket /ws/session" [accepted]
+INFO:     connection open
+INFO:     172.20.10.3:64002 - "WebSocket /ws/classify" [accepted]
+INFO:     connection open
+INFO:     172.20.10.3:60512 - "WebSocket /ws/session" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:50552 - "WebSocket /ws/session" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:50553 - "WebSocket /ws/session" [accepted]
+INFO:     connection open
+INFO:     172.20.10.3:55506 - "WebSocket /ws/classify" [accepted]
+INFO:     connection open
+INFO:     172.20.10.3:57870 - "WebSocket /ws/session" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:50566 - "WebSocket /ws/session" [accepted]
+INFO:     connection open
+INFO:     172.20.10.3:52286 - "WebSocket /ws/classify" [accepted]
+INFO:     connection open
+INFO:     172.20.10.3:64782 - "WebSocket /ws/session" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:50579 - "WebSocket /ws/session" [accepted]
+INFO:     connection open
+INFO:     172.20.10.3:57172 - "WebSocket /ws/classify" [accepted]
+INFO:     connection open
+INFO:     172.20.10.3:57435 - "WebSocket /ws/session" [accepted]
+INFO:     connection open
+INFO:     172.20.10.3:51479 - "WebSocket /ws/classify" [accepted]
+INFO:     connection open
+INFO:     172.20.10.3:65404 - "WebSocket /ws/session" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:50580 - "WebSocket /ws/session" [accepted]
+INFO:     connection open
+INFO:     172.20.10.3:58089 - "WebSocket /ws/classify" [accepted]
+INFO:     connection open
+INFO:     172.20.10.3:61307 - "WebSocket /ws/session" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:50590 - "WebSocket /ws/session" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:50591 - "WebSocket /ws/session" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:50603 - "WebSocket /ws/session" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:50608 - "WebSocket /ws/session" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:50609 - "WebSocket /ws/session" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:50622 - "WebSocket /ws/session" [accepted]
+INFO:     connection open
+INFO:     172.20.10.3:64763 - "WebSocket /ws/classify" [accepted]
+INFO:     connection open
+INFO:     172.20.10.3:52105 - "WebSocket /ws/session" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:50634 - "WebSocket /ws/session" [accepted]
+INFO:     connection open
+INFO:     172.20.10.3:59079 - "WebSocket /ws/classify" [accepted]
+INFO:     connection open
+INFO:     172.20.10.3:49622 - "WebSocket /ws/session" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:50647 - "WebSocket /ws/session" [accepted]
+INFO:     connection open
+INFO:     172.20.10.3:51095 - "WebSocket /ws/classify" [accepted]
+INFO:     connection open
+INFO:     172.20.10.3:57178 - "WebSocket /ws/session" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:50662 - "WebSocket /ws/session" [accepted]
+INFO:     connection open
+INFO:     172.20.10.3:58303 - "WebSocket /ws/classify" [accepted]
+INFO:     connection open
+INFO:     172.20.10.3:52518 - "WebSocket /ws/session" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:50670 - "WebSocket /ws/session" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:50682 - "WebSocket /ws/session" [accepted]
+INFO:     connection open
